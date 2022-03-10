@@ -1,0 +1,5 @@
+access-list 10 deny 172.16.4.0 0.0.0.255
+access-list 10 permit 172.0016.0.0 0.0.255.255
+interface EO
+ip access-group 10 out
+
